@@ -7,4 +7,5 @@ TaskFlow is a small REST API-only app, where users register, log in, and manage 
 3) npm i @types/express @types/node -D
 4) add "type": "module" in package.json to enable ES6
 5) create project folder structure & include index.js file (entry point)
-6) 
+6) add services in docker compose file
+7) setup urls & passwords in .env file. make sure to use same password in both compose & .env file with proper URL‑encode (if there is any special charecter available in the password)
